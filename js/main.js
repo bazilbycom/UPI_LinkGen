@@ -43,8 +43,8 @@ function copyLink() {
 function share() {
     if (navigator.share) {
         navigator.share({
-                title: 'Share | Upier',
-                text: "*Upier* \n\nShareable Secure Payment's Link for UPI :\n",
+                title: 'Share - Bycom UPI',
+                text: "*Bycom UPI* \n\nShareable Secure Payment's Link for UPI :\n",
                 url: window.location.href
             }).then(() => {
                 console.log('Thanks for sharing!');
