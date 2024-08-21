@@ -58,13 +58,27 @@
         <div id="inputd" class="inputdiv">
             <div class="center">
                 <p class="pdetailupiid">
-                    Enter Your VPA (UPI ID)
+                    Choose your VPA (UPI ID)
                 </p>
-                <input type="text" id="vpa" value="bazilbycom@slice" placeholder="UPI ID" class="inputbox">
+                <!-- <input type="text" id="vpa" value="bazilbycom@slice" placeholder="UPI ID" class="inputbox"> -->
+                <label  for="vpa" hidden>Choose your UPI ID:</label>
+<select id="vpa" class="inputbox">
+  <option value="bazilbycom@slice">Slice App</option>
+  <option value="7259472139@ptyes">PayTM</option>
+  <option value="bazilbycom@ybl">PhonePe</option>
+  <option value="bazilbycom20-3@okaxis">Google Pay</option>
+  <option value="7259472139@okbizaxis">Google Pay Business</option>
+  
+</select>
+
+<br><br>
+
+
+
             </div>
             <div class="amountdiv">
                 <p class="pdetailamount">
-                    Amount = <input type="number" id="amount" placeholder="₹" class="amountbox" min="0"> ₹
+                    Amount = <input type="number" id="amount" placeholder="₹" class="amountbox" min="1" required> ₹
                 </p>
                 <p class="vsmalltext">
                     (Optional)
