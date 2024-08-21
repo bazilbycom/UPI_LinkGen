@@ -10,9 +10,9 @@ body {
 .headerdiv {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
-  width: 340px;
-  height: 70px;
+  margin-top: 1px;
+  width: 400px;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
